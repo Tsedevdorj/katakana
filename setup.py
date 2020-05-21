@@ -1,4 +1,6 @@
 from setuptools import setup
+import os
+from glob import glob
 
 setup(
     name='katakana',
@@ -9,4 +11,5 @@ setup(
     author='wanasit',
     packages=['katakana'],
     install_requires=['keras', 'h5py', 'numpy'],
+    data_files = [ (os.path.dirname(__file__), glob('trained_models/**')) ]
 )

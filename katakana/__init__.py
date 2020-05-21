@@ -13,7 +13,7 @@ output_decoding = None
 def load_default_model():
     global loaded_model, input_encoding, input_decoding, output_encoding, output_decoding
 
-    trained_model_dir = os.path.join(os.path.dirname(__file__), '../trained_models')
+    trained_model_dir = os.path.join(os.path.dirname(__file__), './trained_models')
     loaded_model, input_encoding, input_decoding, output_encoding, output_decoding = \
         model.load(save_dir=trained_model_dir)
 
