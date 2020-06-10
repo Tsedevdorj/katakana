@@ -11,7 +11,7 @@ setup(
     author='wanasit',
     install_requires=['keras', 'h5py', 'numpy', 'tensorflow'],
     packages=['katakana'],
-    data_files = [ ('trained_models', ['input_encoding.json', 'input_decoding.json', 'output_decoding.json', 'output_encoding.json']) ],
+    data_files = [ (os.path.dirname(__file__) +'/trained_models', ['input_encoding.json', 'input_decoding.json', 'output_decoding.json', 'output_encoding.json']) ],
 #     package_data={'': ['license.txt']},
 #     include_package_data=True,
 )
