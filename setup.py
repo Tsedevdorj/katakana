@@ -9,7 +9,6 @@ setup(
     license='MIT',
     url='http://github.com/wanasit/katakana',
     author='wanasit',
-    packages=['katakana'],
-    install_requires=['keras', 'h5py', 'numpy'],
+    install_requires=['keras', 'h5py', 'numpy', 'tensorflow'],
     data_files = [ (os.path.dirname(__file__), glob('trained_models/**')) ]
 )
