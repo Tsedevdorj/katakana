@@ -10,5 +10,6 @@ setup(
     url='https://github.com/Tsedevdorj/katakana',
     author='wanasit',
     install_requires=['keras', 'h5py', 'numpy', 'tensorflow'],
+    packages=['katakana'],
     data_files = [ (os.path.dirname(__file__), glob('trained_models/**')) ]
 )
