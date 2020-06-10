@@ -7,7 +7,7 @@ setup(
     version='0.1',
     description='English to Katakana with sequence-to-seqeucne learning',
     license='MIT',
-    url='http://github.com/wanasit/katakana',
+    url='https://github.com/Tsedevdorj/katakana',
     author='wanasit',
     install_requires=['keras', 'h5py', 'numpy', 'tensorflow'],
     data_files = [ (os.path.dirname(__file__), glob('trained_models/**')) ]
