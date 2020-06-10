@@ -11,5 +11,7 @@ setup(
     author='wanasit',
     install_requires=['keras', 'h5py', 'numpy', 'tensorflow'],
     packages=['katakana'],
-    data_files = [ (os.path.dirname(__file__), glob('trained_models/**')) ]
+    data_files = [ ('trained_models', ['model.h5']) ],
+#     package_data={'': ['license.txt']},
+#     include_package_data=True,
 )
