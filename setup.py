@@ -4,7 +4,7 @@ from glob import glob
 
 setup(
     name='katakana',
-    version='0.1',
+    version='0.2',
     description='English to Katakana with sequence-to-seqeucne learning',
     license='MIT',
     url='https://github.com/Tsedevdorj/katakana',
